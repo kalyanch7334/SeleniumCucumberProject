@@ -14,4 +14,5 @@ Feature: Customers
     And  click on save button
    Then user can view confirmation message "The new customer has been added successfully."
     And close browser
+    Scenario: Search customer by emailId
 
