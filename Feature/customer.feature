@@ -15,6 +15,7 @@ Feature: Customers
    Then user can view confirmation message "The new customer has been added successfully."
     And close browser
 
-    Scenario: search customer by email
+    Scenario: search employee
+
 
 
