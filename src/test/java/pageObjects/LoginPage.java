@@ -13,7 +13,7 @@ public class LoginPage {
 	/*public LoginPage (WebDriver driver)
 	{
 		ldriver=driver;
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(ldriver, this);
 
 	}*/
 
@@ -47,6 +47,7 @@ public class LoginPage {
     {
         txt_email.clear();
         txt_email.sendKeys(uname);
+
 
     }
 
